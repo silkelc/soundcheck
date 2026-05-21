@@ -157,6 +157,12 @@
     border-radius: 2px;
     position: relative;
     cursor: pointer;
+    touch-action: none;
+  }
+  .seek .bar::before {
+    content: '';
+    position: absolute;
+    top: -14px; bottom: -14px; left: 0; right: 0;
   }
   .seek .fill {
     position: absolute; inset: 0 auto 0 0;
@@ -216,6 +222,12 @@
     border-radius: 2px;
     position: relative;
     cursor: pointer;
+    touch-action: none;
+  }
+  .volume .bar::before {
+    content: '';
+    position: absolute;
+    top: -14px; bottom: -14px; left: 0; right: 0;
   }
   .volume .fill {
     position: absolute; inset: 0 auto 0 0;
