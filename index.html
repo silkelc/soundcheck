@@ -202,7 +202,7 @@
   }
   .btn.play:hover { background: var(--accent); transform: scale(1.05); }
   .volume {
-    margin-top: 18px;
+    margin-top: 28px;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -224,7 +224,7 @@
     width: 70%;
   }
   .scroll-hint {
-    margin-top: 16px;
+    margin-top: 26px;
     text-align: center;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
@@ -429,8 +429,7 @@
     letter-spacing: 0.05em;
   }
   .tool-badge::before {
-    content: '◆';
-    font-size: 10px;
+    content: none;
   }
   .reflection-text {
     font-family: 'Fraunces', serif;
@@ -877,8 +876,11 @@
   }
   let seeking = false;
   elSeekBar.addEventListener('mousedown', e => { seeking = true; seekFromEvent(e); });
+  elSeekBar.addEventListener('touchstart', e => { e.preventDefault(); seeking = true; seekFromEvent(e); }, {passive: false});
   window.addEventListener('mousemove', e => { if (seeking) seekFromEvent(e); });
+  window.addEventListener('touchmove', e => { if (seeking) seekFromEvent(e); }, {passive: true});
   window.addEventListener('mouseup', () => { seeking = false; });
+  window.addEventListener('touchend', () => { seeking = false; });
 
   function volFromEvent(e) {
     const rect = elVolBar.getBoundingClientRect();
@@ -889,8 +891,11 @@
   }
   let voling = false;
   elVolBar.addEventListener('mousedown', e => { voling = true; volFromEvent(e); });
+  elVolBar.addEventListener('touchstart', e => { e.preventDefault(); voling = true; volFromEvent(e); }, {passive: false});
   window.addEventListener('mousemove', e => { if (voling) volFromEvent(e); });
+  window.addEventListener('touchmove', e => { if (voling) volFromEvent(e); }, {passive: true});
   window.addEventListener('mouseup', () => { voling = false; });
+  window.addEventListener('touchend', () => { voling = false; });
 
   document.addEventListener('keydown', e => {
     if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
