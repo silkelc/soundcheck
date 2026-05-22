@@ -7,5 +7,14 @@
     "prompt": "Style: Modern instrumental, neoclassical electronic, cinematic. Opens chaotic and fragmented — glitchy granular textures, overlapping synth arpeggios out of phase, scattered piano shards, anxious low pulse like a racing heart. A repeating motif slowly emerges from the noise. Tension builds, then breaks into clarity — a single introspective solo piano line, warm reverb, spacious, melancholic but hopeful. 75 bpm. In the spirit of Nils Frahm, Jon Hopkins, Ólafur Arnalds.\n\nStructure (lyrics box, even for instrumental — Suno reads structural tags here):\n[Intro: chaotic, glitchy, fragmented thoughts]\n[Build: tension, repeating motif emerging]\n[Break: clarity arrives]\n[Outro: solo piano, resolution]",
     "tool": "Suno",
     "reflection": "First experiment with Suno. The melody it generated captured the mood better than I expected — the looping structure feels intentional, like thoughts circling back."
+  },
+  {
+    "audio": "tracks/too-many-thoughts-v2.mp3",
+    "cover": "covers/too-many-thoughts.jpg",
+    "headline": "Too many thoughts. (v2)",
+    "description": "Too many thoughts. No order. Just fragments floating. Until you start to see — patterns in the mess.",
+    "prompt": "Modern instrumental, neoclassical electronic, cinematic. Opens chaotic and fragmented, glitchy granular textures, overlapping synth arpeggios out of phase, scattered piano shards, anxious low pulse like a racing heart. A repeating motif slowly emerges from the noise. Tension builds, then breaks into clarity, a single introspective solo piano line, warm reverb, spacious, melancholic but hopeful. 75 bpm. Inspired by contemporary neoclassical and electronic composers known for blending ambient textures with emotive piano melodies.",
+    "tool": "ElevenLabs",
+    "reflection": "Second experiment with ElevenLabs. The melody it generated captured the mood better than I expected — the looping structure feels intentional, like thoughts circling back."
   }
 ]
