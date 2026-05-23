@@ -1,6 +1,6 @@
 [
   {
-    "audio": "tracks/too-many-thoughts.mp3",
+    "audio": "tracks/too-many-thoughts_suno.mp3",
     "cover": "covers/too-many-thoughts.jpg",
     "headline": "Too many thoughts - echoes of self",
     "description": "\"Too Many Thoughts\" is an AI-generated music exploration of what goes on in my head when there's too much. Too many to-dos, too much pressure, no idea where to start. The whole thing just freezes. What helps me is leaving. Walking. Being outside. Slowly the thoughts sort themselves at their own pace, and at some point it gets quiet again. From there I can actually begin.\nThe track follows that arc in sound: starts fragmented and dense, ends somewhere close to stillness.",
@@ -9,7 +9,7 @@
     "reflection": "First experiment with Suno. The structural tags worked surprisingly well for an instrumental. Suno actually followed the arc from chaos to clarity. The glitchy textures in the intro feel almost too fitting for the theme, like the AI understood what overthinking sounds like. The piano break lands with real weight. Rough around the edges, but that roughness carries the meaning."
   },
   {
-    "audio": "tracks/too-many-thoughts-v2.mp3",
+    "audio": "tracks/too-many-thoughts-11labs.mp3",
     "cover": "covers/too-many-thoughts.jpg",
     "headline": "Too many thoughts - remix layering",
     "description": "\"Too Many Thoughts\" is an AI-generated music exploration of what goes on in my head when there's too much. Too many to-dos, too much pressure, no idea where to start. The whole thing just freezes. What helps me is leaving. Walking. Being outside. Slowly the thoughts sort themselves at their own pace, and at some point it gets quiet again. From there I can actually begin.\nThe track follows that arc in sound: starts fragmented and dense, ends somewhere close to stillness.",
@@ -25,5 +25,14 @@
     "prompt": "Modern neoclassical electronic instrumental, titled \"Patterns in the Mess\", perfect for a short film about anxious thoughts finding clarity. Opens with glitchy granular synth textures, scattered piano shards, and an anxious low sub-bass pulse like a racing heart. Atmospheric pads with long reverb tails drift underneath overlapping out-of-phase arpeggios. As the piece develops, a repeating piano motif slowly emerges from the noise, then the chaos dissolves into a final sparse solo piano line with warm room ambience. The mood moves from restless and fragmented to spacious, melancholic, and quietly hopeful. Building tempo around 75 BPM. Berlin neoclassical aesthetic with intimate close-mic production.",
     "tool": "Stable Audio",
     "reflection": "Six versions generated, only two had a real arc. The prompt was not interpreted in a compelling way. The piano at the end sounded like a synth imitating a piano. Concrete metaphors like \"racing heart\" were translated well, but the emotional dramaturgy was missing.\nWhat I would add: the option to request real acoustic instruments instead of synthetic imitations. The piano was the emotional anchor of the concept, and a synthetic version weakened the resolution."
+  },
+  {
+    "audio": "tracks/Reeperbahn_Sirenen_Cultural translation.mp3",
+    "cover": "",
+    "headline": "Reeperbahn_Sirenen - cultural translation",
+    "description": "",
+    "prompt": "Style: Hamburger Schule hip hop, boom bap, jazz-sampled production, anxious dense intro building to spacious calm outro, vinyl crackle, funky upright bass, melancholic trumpet, female vocals only, no male vocals, female alto voice with melodic conversational delivery, German lyrics with Hamburg dialect, 85 bpm, in the spirit of Jan Delay, Beginner, Samy Deluxe\n\nLyrics:\n[Intro: dense urban field recording, traffic and distant sirens, chopped voice samples, jazz piano scratched and cut, frantic, drums haven't entered yet]\n\n[Verse 1: female voice, anxious rapid-fire boom bap flow, MPC drums slam in, dense bassline, German]\nKopf voll, Stadt voll, alles dröhnt mir im Ohr\nReeperbahn, Schanze, Sirenen vor dem Tor\nGedanken wie die U-Bahn, fahren immer im Kreis\nS-Bahn nach Altona, ich weiß nicht mal wieso\n\n[Build: female voice, anxious horn stabs enter, sample chops more frantic, tension grows]\nDrei Tage nicht geschlafen, mein Akku ist leer\nDie Stadt wird zu laut, ich find mich nicht mehr\nZwischen Hauptbahnhof und allem was war\nBrauch ich ein Ziel, brauch ich Wasser, brauch ich klar\n\n[Break: female voice, sudden drop — everything cuts except bass and a single trumpet, beat slows]\nDann steh ich am Hafen und auf einmal wird's still\nDie Möwen, der Wind, die Elbe fließt wie sie will\nAlles was war fällt von mir ab wie ein Schal\nHamburg atmet mit mir, zum ersten Mal\n\n[Verse 2: female voice, slow melodic delivery, melancholic trumpet underneath, German]\nContainer schaukeln im Hafenlicht\nNiemand kennt mich, niemand braucht mich\nNur das Wasser und ich und der Wind im Gesicht\nHamburg, du hörst zu wenn keiner mehr spricht\n\n[Outro: female voice, slow boom bap with melancholic solo trumpet, harbor field recording underneath, vinyl crackle, voice fades]\nSonne über Speicherstadt, das Wasser glitzert grau\nIch bin müde aber wach, irgendwie genau\nHamburg, du bist Lärm und du bist Stille\nHamburg, du bist Chaos und du bist Wille",
+    "tool": "Suno",
+    "reflection": ""
   }
 ]
